@@ -6,7 +6,7 @@ export default function Contact() {
         <ul>
           <li>Téléphone: 514-298-3238</li>
           <li>Email : haoyangchen1618@gmail.com</li>
-          <img></img>
+          {/* <img></img> */}
         </ul>
       </div>
     </>
