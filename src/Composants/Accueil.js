@@ -1,18 +1,15 @@
 import "./Accueil.scss";
-import Entete from "./Entete";
-import Projets from "./Projets";
-import Contact from "./Contact";
+import { Contact } from "./Contact";
 import Aprops from "./Aprops";
+import { Nav } from "./Nav";
+import { Header } from "./Header";
+import { Projets } from "./Projets";
 
 function Accueil() {
   return (
     <div className="pagePrincipale">
-      <Entete />
-      <h1>Chen Haoyang</h1>
-      <h3>
-        Étudiant en Techniques d'Intégration Multimédia avec un intérêt en
-        programmation front-end, j'aime apprendre des nouvelles technologies...
-      </h3>
+      <Nav />
+      <Header />
       <Projets />
       <Aprops />
       <Contact />
