@@ -71,7 +71,7 @@ export const Contact = () => {
           </div>
         </div>
         <div>
-          <img
+          <image
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
             src="./images/Chen_Haoyang.png"
             alt="Photo de Haoyang"
