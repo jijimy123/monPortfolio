@@ -26,9 +26,13 @@ export const Nav = () => {
             <rect x="14" y="1" width="7" height="6" />
             <rect x="14" y="11" width="7" height="12" />
           </svg> */}
-          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-            Icon de moe
-          </span>
+          <img
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="h-12"
+            src={"./images/Chen_Haoyang.png"}
+            alt={"Icon GitHub"}
+          />
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
