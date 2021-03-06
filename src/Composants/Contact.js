@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="lg:pr-10">
           <a title="Logo" className="inline-block mb-5">
@@ -12,13 +12,13 @@ export const Contact = () => {
               />
             </div>
           </a>
-          <h5 className="mb-4 text-2xl font-extrabold leading-none">
+          <h5 className="mb-4 text-xl md:text-2xl font-extrabold leading-none">
             Téléphone: 514-298-3238
           </h5>
-          <h5 className="mb-4 text-2xl font-extrabold leading-none">
+          <h5 className="mb-4 text-xl md:text-2xl font-extrabold leading-none">
             Email: haoyangchen1618@gmail.com
           </h5>
-          <h5 className="mb-4 text-2xl font-extrabold leading-none">
+          <h5 className="mb-4 text-xl md:text-2xl font-extrabold leading-none">
             Wechat: jijimy123
           </h5>
           <hr className="mb-5 border-gray-300" />
@@ -58,10 +58,12 @@ export const Contact = () => {
           </div>
         </div>
         <div>
-          <image
-            className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-            src="./images/Chen_Haoyang.png"
-            alt="Photo de Haoyang"
+          <img
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            style={{ width: 360, height: 480 }}
+            src={"./images/Chen_Haoyang.png"}
+            alt={"Icon GitHub"}
           />
         </div>
       </div>
