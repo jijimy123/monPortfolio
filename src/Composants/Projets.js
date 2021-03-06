@@ -37,7 +37,7 @@ export const Projets = () => {
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer">
+            <a className="cursor-pointer" href="/">
               <img
                 src={"./images/flechegauche.png"}
                 alt={"Icon Fleche Gauche"}
@@ -56,7 +56,7 @@ export const Projets = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer">
+            <a className="cursor-pointer" href="/">
               <img
                 src={"./images/flechegauche.png"}
                 alt={"Icon Fleche Gauche"}
@@ -76,7 +76,7 @@ export const Projets = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer">
+            <a className="cursor-pointer" href="/">
               <img
                 src={"./images/flechegauche.png"}
                 alt={"Icon Fleche Gauche"}
@@ -96,7 +96,7 @@ export const Projets = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer">
+            <a className="cursor-pointer" href="/">
               <img
                 src={"./images/flechegauche.png"}
                 alt={"Icon Fleche Gauche"}
@@ -116,7 +116,7 @@ export const Projets = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer">
+            <a className="cursor-pointer" href="/">
               <img
                 src={"./images/flechegauche.png"}
                 alt={"Icon Fleche Gauche"}
@@ -136,7 +136,7 @@ export const Projets = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer">
+            <a className="cursor-pointer" href="/">
               <img
                 src={"./images/flechegauche.png"}
                 alt={"Icon Fleche Gauche"}
