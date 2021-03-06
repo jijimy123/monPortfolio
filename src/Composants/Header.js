@@ -19,9 +19,8 @@ export const Header = () => {
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
           background="transparent"
           speed="1"
-          style={{ width: 300, height: 300 }}
+          style={{ width: 600, height: 600 }}
           loop
-          // controls
           autoplay
         ></lottie-player>
       </div>
