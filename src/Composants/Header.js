@@ -24,8 +24,8 @@ export const Header = () => {
           <p className="inline-block px-3 py-px mb-4 text-s font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
             BONJOUR!
           </p>
-          <h2 className="mb-5 font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            Chen Haoyang
+          <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl sm:leading-none">
+            Bienvenu dans mon portfolio!
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
             Je suis un étudiant en Techniques d'Intégration Multimédia avec un

@@ -11,12 +11,15 @@ export const Nav = () => {
           title="Company"
           className="inline-flex items-center"
         > */}
+        <div className="font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none hidden md:block lg:block">
+          Chen Haoyang
+        </div>
         <img
           viewBox="0 0 24 24"
           fill="currentColor"
-          className="h-12"
-          src={"./images/Chen_Haoyang.png"}
-          alt={"Icon GitHub"}
+          className="h-12 md:ml-40"
+          src={"./images/githubIcon.png"}
+          alt={"Icon Moi"}
         />
         {/* </a> */}
         <ul className="flex items-center hidden space-x-8 lg:flex ">

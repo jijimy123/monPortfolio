@@ -10,8 +10,8 @@ function Accueil() {
     <div className="pagePrincipale">
       <Nav />
       <Header />
-      <Projets />
       <Aprops />
+      <Projets />
       <Contact />
     </div>
   );
