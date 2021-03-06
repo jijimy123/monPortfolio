@@ -63,7 +63,7 @@ export const Projets = () => {
               />
             </a>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">That is the true</h6>
+          <h6 className="mb-2 font-semibold leading-5">That is the true!</h6>
           <img
             src={"./images/images_projets/timwebsite1.jpg"}
             alt={"Image du projet 1"}
