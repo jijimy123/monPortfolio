@@ -1,3 +1,4 @@
+import { BiRightArrowCircle } from "react-icons/bi";
 export const Projets = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -38,10 +39,7 @@ export const Projets = () => {
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <a className="cursor-pointer" href="/">
-              <img
-                src={"./images/flechegauche.png"}
-                alt={"Icon Fleche Gauche"}
-              />
+              <BiRightArrowCircle size="55" />
             </a>
           </div>
           <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
@@ -57,10 +55,7 @@ export const Projets = () => {
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <a className="cursor-pointer" href="/">
-              <img
-                src={"./images/flechegauche.png"}
-                alt={"Icon Fleche Gauche"}
-              />
+              <BiRightArrowCircle size="55" />
             </a>
           </div>
           <h6 className="mb-2 font-semibold leading-5">That is the true!</h6>
@@ -77,10 +72,7 @@ export const Projets = () => {
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <a className="cursor-pointer" href="/">
-              <img
-                src={"./images/flechegauche.png"}
-                alt={"Icon Fleche Gauche"}
-              />
+              <BiRightArrowCircle size="55" />
             </a>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Those options</h6>
@@ -97,10 +89,7 @@ export const Projets = () => {
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <a className="cursor-pointer" href="/">
-              <img
-                src={"./images/flechegauche.png"}
-                alt={"Icon Fleche Gauche"}
-              />
+              <BiRightArrowCircle size="55" />
             </a>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Swearem ipsum</h6>
@@ -117,10 +106,7 @@ export const Projets = () => {
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <a className="cursor-pointer" href="/">
-              <img
-                src={"./images/flechegauche.png"}
-                alt={"Icon Fleche Gauche"}
-              />
+              <BiRightArrowCircle size="55" />
             </a>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Webtwo ipsum</h6>
@@ -137,10 +123,7 @@ export const Projets = () => {
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
             <a className="cursor-pointer" href="/">
-              <img
-                src={"./images/flechegauche.png"}
-                alt={"Icon Fleche Gauche"}
-              />
+              <BiRightArrowCircle size="55" />
             </a>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Lookout flogging</h6>
