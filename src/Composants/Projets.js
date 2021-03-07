@@ -33,6 +33,7 @@ export const Projets = () => {
               />
             </svg>
           </span>{" "}
+          ca marche just avec le premier
         </h2>
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
