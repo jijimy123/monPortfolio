@@ -1,3 +1,6 @@
+import { Projet } from "./Projet";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { BiRightArrowCircle } from "react-icons/bi";
 export const Projets = () => {
   return (
@@ -39,20 +42,21 @@ export const Projets = () => {
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer" href="/">
-              <BiRightArrowCircle size="55" />
-            </a>
+            <Router>
+              <Link className="cursor-pointer" to="/Projet">
+                <BiRightArrowCircle size="55" />
+              </Link>
+              <Switch>
+                <Route path="/Projet" component={Projet}></Route>
+              </Switch>
+            </Router>
           </div>
           <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
           <img
             src={"./images/images_projets/timwebsite1.jpg"}
             alt={"projet 1"}
           />
-          <p className="text-sm text-gray-900">
-            pourquoi les texts que jecirs ca depasse le bordu mais celui de
-            lautre? adjawldlakwdjwalkdjwalkdjawkldj ajwdlkjawldkjawlk
-            awjlkdjawlkdjawd
-          </p>
+          <p className="text-sm mt-1 text-gray-900">Rien de special</p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -65,7 +69,7 @@ export const Projets = () => {
             src={"./images/images_projets/timwebsite1.jpg"}
             alt={"projet 1"}
           />
-          <p className="text-sm text-gray-900">
+          <p className="text-sm mt-1 text-gray-900">
             We meet at one of those defining moments - a moment when our nation
             is at war, our economy is in turmoil, and the American promise has
             been threatened once more.
@@ -82,7 +86,7 @@ export const Projets = () => {
             src={"./images/images_projets/timwebsite1.jpg"}
             alt={"projet 1"}
           />
-          <p className="text-sm text-gray-900">
+          <p className="text-sm mt-1 text-gray-900">
             Strategic high-level 30,000 ft view. Drill down re-inventing the
             wheel at the end of the day but curate imagineer, or to be inspired
             is to become creative.
@@ -99,7 +103,7 @@ export const Projets = () => {
             src={"./images/images_projets/timwebsite1.jpg"}
             alt={"projet 1"}
           />
-          <p className="text-sm text-gray-900">
+          <p className="text-sm mt-1 text-gray-900">
             Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et.
             Vestibulum placerat purus ut nibh aliquam fringilla. Aenean et
             tortor diam, id tempor elit.
@@ -116,7 +120,7 @@ export const Projets = () => {
             src={"./images/images_projets/timwebsite1.jpg"}
             alt={"projet 1"}
           />
-          <p className="text-sm text-gray-900">
+          <p className="text-sm mt-1 text-gray-900">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
             perspiciatis unde omnis.
@@ -133,7 +137,7 @@ export const Projets = () => {
             src={"./images/images_projets/timwebsite1.jpg"}
             alt={"projet 1"}
           />
-          <p className="text-sm text-gray-900">
+          <p className="text-sm mt-1 text-gray-900">
             Flatland! Hypatia. Galaxies Orion's sword globular star cluster?
             Light years quasar as a patch of light gathered by gravity Vangelis
             radio telescope.

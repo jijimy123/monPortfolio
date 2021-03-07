@@ -5,12 +5,6 @@ export const Nav = () => {
   return (
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
-        {/* <a
-          href="/"
-          aria-label="Company"
-          title="Company"
-          className="inline-flex items-center"
-        > */}
         <div className="font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none hidden md:block lg:block">
           Chen Haoyang
         </div>
@@ -18,10 +12,10 @@ export const Nav = () => {
           viewBox="0 0 24 24"
           fill="currentColor"
           className="h-12 md:ml-40"
-          src={"./images/githubIcon.png"}
+          src={"./images/logoHaoyang.png"}
           alt={"Icon Moi"}
         />
-        {/* </a> */}
+
         <ul className="flex items-center hidden space-x-8 lg:flex ">
           <li>
             <a
@@ -47,10 +41,10 @@ export const Nav = () => {
             <a
               href="/"
               aria-label="Product pricing"
-              title="À props"
+              title="À propos"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
             >
-              À props
+              À propos
             </a>
           </li>
           <li>
@@ -137,10 +131,10 @@ export const Nav = () => {
                       <a
                         href="/"
                         aria-label="Product pricing"
-                        title="À props"
+                        title="À propos"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        À props
+                        À propos
                       </a>
                     </li>
                     <li>

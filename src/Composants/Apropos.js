@@ -1,10 +1,10 @@
-export const Competences = () => {
+export const Apropos = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-5 py-px mb-4 text-4xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400 pt-2 pb-2">
-            À props
+            À propos
           </p>
         </div>
         <span className="relative inline-block">
@@ -79,33 +79,11 @@ export const Competences = () => {
           Qui-suis je
         </h2>
         <p className="pl-10">
-          Je suis ton pere Je suis ton pereJe suis ton pereJe suis ton pereJe
-          suis ton pereJe suis ton pereJe suis ton pereJe suis ton pere
+          Je suis un étudiant en Techniques d'Intégration Multimédia avec un
+          intérêt en programmation front-end, j'aime apprendre des nouvelles
+          technologies... Et je suis ton pere (un joke de moi et Alexis)
         </p>
       </div>
-      {/* <div className="text-center">
-        <a
-          href="/"
-          className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-        >
-          En savoir plus
-          <span className="ml-1 -mr-2">
-            <svg
-              className="w-8 h-8 text-white"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </span>
-        </a>
-      </div> */}
     </div>
   );
 };

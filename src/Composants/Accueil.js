@@ -1,6 +1,5 @@
 import { Contact } from "./Contact";
-import Aprops from "./Aprops";
-import { Nav } from "./Nav";
+import { Apropos } from "./Apropos";
 import { Header } from "./Header";
 import { Projets } from "./Projets";
 import { Projet } from "./Projet";
@@ -8,9 +7,8 @@ import { Projet } from "./Projet";
 function Accueil() {
   return (
     <div className="pagePrincipale">
-      <Nav />
       <Header />
-      <Aprops />
+      <Apropos />
       <Projets />
       <Projet />
       <Contact />

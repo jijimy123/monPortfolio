@@ -20,7 +20,7 @@ export const Projet = () => {
           <span className="text-1xl font-bold inline-block text-deep-purple-accent-400 pb-3">
             Tchnologies utilisées
           </span>
-          <div className="grid gap-8 row-gap-8 sm:grid-cols-6">
+          <div className="grid gap-8 row-gap-8 sm:grid-cols-2 lg: grid-cols-6">
             <div>
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
                 <img src={"./images/nextjsIcon.png"} alt={"Icon Nextjs"} />
