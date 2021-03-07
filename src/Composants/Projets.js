@@ -1,6 +1,6 @@
-import { Projet } from "./Projet";
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { Projet } from "./Projet";
+// import React from "react";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { BiRightArrowCircle } from "react-icons/bi";
 export const Projets = () => {
   return (
@@ -42,14 +42,17 @@ export const Projets = () => {
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <Router>
+            {/* <Router>
               <Link className="cursor-pointer" to="/Projet">
                 <BiRightArrowCircle size="55" />
               </Link>
               <Switch>
                 <Route path="/Projet" component={Projet}></Route>
               </Switch>
-            </Router>
+            </Router> */}
+            <a className="cursor-pointer" href="/">
+              <BiRightArrowCircle size="55" />
+            </a>
           </div>
           <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
           <img
