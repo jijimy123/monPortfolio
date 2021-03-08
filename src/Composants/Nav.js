@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/LogoHaoyang.png";
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -19,7 +20,7 @@ export const Nav = () => {
               viewBox="0 0 24 24"
               fill="currentColor"
               className="h-12 md:ml-40"
-              src={"/images/logoHaoyang.png"}
+              src={logo}
               alt={"Icon de Moi"}
             />
           </a>
