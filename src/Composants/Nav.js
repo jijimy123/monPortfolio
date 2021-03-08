@@ -19,7 +19,7 @@ export const Nav = () => {
               viewBox="0 0 24 24"
               fill="currentColor"
               className="h-12 md:ml-40"
-              src={"./images/logoHaoyang.png"}
+              src={"/images/logoHaoyang.png"}
               alt={"Icon de Moi"}
             />
           </a>
