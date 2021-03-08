@@ -1,6 +1,5 @@
 import React from "react";
-import { BiIdCard } from "react-icons/bi";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
