@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -8,54 +9,56 @@ export const Nav = () => {
         <div className="font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none hidden md:block lg:block">
           Chen Haoyang
         </div>
-        <img
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="h-12 md:ml-40"
-          src={"./images/logoHaoyang.png"}
-          alt={"Icon Moi"}
-        />
+        <Link
+          to="/"
+          title="Icon"
+          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
+        >
+          <img
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="h-12 md:ml-40"
+            src={"./images/logoHaoyang.png"}
+            alt={"Icon Moi"}
+          />
+        </Link>
 
         <ul className="flex items-center hidden space-x-8 lg:flex ">
           <li>
-            <a
-              href="/"
-              aria-label="Our product"
+            <Link
+              to="/"
               title="Accueil"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:underline"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
             >
               Accueil
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              aria-label="Our product"
-              title="Mes projets"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:underline"
+            <Link
+              to="/projets"
+              title="Mes Projets"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
             >
               Projets
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              aria-label="Product pricing"
+            <Link
+              to="/apropos"
               title="À propos"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
             >
               À propos
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/contact"
+              title="Contact"
               className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-              aria-label="Sign up"
-              title="Contact moi"
             >
-              Contact
-            </a>
+              Contact 🥰
+            </Link>
           </li>
         </ul>
         <div className="lg:hidden z-20">
@@ -85,7 +88,7 @@ export const Nav = () => {
               <div className="p-5 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                    <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                       Menu
                     </span>
                   </div>
@@ -93,10 +96,10 @@ export const Nav = () => {
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
-                      class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                      className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                      <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
                         <path
                           fill="currentColor"
                           d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
@@ -106,46 +109,42 @@ export const Nav = () => {
                   </div>
                 </div>
                 <nav>
-                  <ul class="space-y-4">
+                  <ul className="space-y-4">
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
+                      <Link
+                        to="/"
                         title="Accueil"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
                       >
                         Accueil
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Mes projets"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      <Link
+                        to="/projets"
+                        title="Mes Projets"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
                       >
                         Projets
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Product pricing"
+                      <Link
+                        to="/apropos"
                         title="À propos"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
                       >
                         À propos
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="About us"
-                        title="Contact moi"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      <Link
+                        to="/contact"
+                        title="Contact"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

@@ -1,6 +1,4 @@
-// import { Projet } from "./Projet";
-// import React from "react";
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BiRightArrowCircle } from "react-icons/bi";
 export const Projets = () => {
   return (
@@ -42,17 +40,9 @@ export const Projets = () => {
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            {/* <Router>
-              <Link className="cursor-pointer" to="/Projet">
-                <BiRightArrowCircle size="55" />
-              </Link>
-              <Switch>
-                <Route path="/Projet" component={Projet}></Route>
-              </Switch>
-            </Router> */}
-            <a className="cursor-pointer" href="/">
+            <Link className="cursor-pointer" to="/projet1">
               <BiRightArrowCircle size="55" />
-            </a>
+            </Link>
           </div>
           <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
           <img
@@ -146,14 +136,6 @@ export const Projets = () => {
             radio telescope.
           </p>
         </div>
-      </div>
-      <div className="text-center">
-        <a
-          href="/"
-          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-        >
-          En savoir plus
-        </a>
       </div>
     </div>
   );

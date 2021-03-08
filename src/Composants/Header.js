@@ -1,11 +1,9 @@
 import React from "react";
-import { Apropos } from "./Apropos";
-import { Nav } from "./Nav";
+import { BiIdCard } from "react-icons/bi";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
-      <Nav />
       <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
         <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
           <svg
@@ -17,7 +15,7 @@ export const Header = () => {
             <path d="M50 0H100L50 100H0L50 0Z" />
           </svg>
           <lottie-player
-            src="https://assets6.lottiefiles.com/packages/lf20_iSK2a6.json"
+            src="https://assets9.lottiefiles.com/packages/lf20_DX2n72.json"
             className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-600 lg:w-600"
             background="transparent"
             speed="1"
@@ -39,15 +37,20 @@ export const Header = () => {
               technologies...
             </p>
             <div className="flex items-center">
-              <Router>
-                <Link
-                  className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                  to="/Aprops"
-                >
-                  En savoir plus 👇
-                </Link>
-                <Route path="/Apropos" component={Apropos}></Route>
-              </Router>
+              <Link
+                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                to="/apropos"
+              >
+                En savoir plus 🧐
+              </Link>
+            </div>
+            <div className="flex items-center mt-5 underline">
+              Note Important : Le site n'est pas 100% FINI! J'ai encore beaucoup
+              de modifications à faire, par exemple: au lieu de avec un fond
+              blanc, je vais faire plus tot en drak mode. Les projets sont juste
+              des exemples, c'est seulement le 1er qui marche... ETC... Merci
+              beaucoup votre visite et j'attend votre beaux petites commentaires
+              ❤ (❁´◡`❁)
             </div>
           </div>
         </div>
