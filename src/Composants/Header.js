@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 export const Header = () => {
   return (
@@ -44,13 +43,13 @@ export const Header = () => {
                 En savoir plus 🧐
               </Link>
             </div>
-            <div className="flex items-center mt-5 underline">
+            <div className="flex items-center mt-5 underline max-w-xs">
               Note Important : Le site n'est pas 100% FINI! J'ai encore beaucoup
               de modifications à faire, par exemple: au lieu de avec un fond
               blanc, je vais faire plus tot en drak mode. Les projets sont juste
-              des exemples, c'est seulement le 1er qui marche... ETC... Merci
-              beaucoup votre visite et j'attend votre beaux petites commentaires
-              ❤ (❁´◡`❁)
+              des exemples, c'est seulement le 1er qui marche. Ça marche en
+              mobile aussi... ETC... Merci beaucoup votre visite et j'attend
+              votre beaux petites commentaires ❤ (❁´◡`❁)
             </div>
           </div>
         </div>

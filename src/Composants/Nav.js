@@ -14,13 +14,15 @@ export const Nav = () => {
           title="Icon"
           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 "
         >
-          <img
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="h-12 md:ml-40"
-            src={"./images/logoHaoyang.png"}
-            alt={"Icon Moi"}
-          />
+          <a href="/">
+            <img
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="h-12 md:ml-40"
+              src={"./images/logoHaoyang.png"}
+              alt={"Icon de Moi"}
+            />
+          </a>
         </Link>
 
         <ul className="flex items-center hidden space-x-8 lg:flex ">

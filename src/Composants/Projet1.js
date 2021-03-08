@@ -24,7 +24,7 @@ export const Projet1 = () => {
               </p>
             </div>
             <span className="text-1xl font-bold inline-block text-deep-purple-accent-400 pb-3">
-              Tchnologies utilisées
+              Technologies utilisées
             </span>
             <div className="grid gap-8 row-gap-8 sm:grid-cols-2 lg: grid-cols-6">
               <div>
