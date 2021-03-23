@@ -81,7 +81,7 @@ export const Apropos = () => {
         <p className="pl-10">
           Je suis un étudiant en Techniques d'Intégration Multimédia avec un
           intérêt en programmation front-end, j'aime apprendre des nouvelles
-          technologies... Et je suis ton pere (un joke de moi et Alexis)
+          technologies.
         </p>
       </div>
     </div>

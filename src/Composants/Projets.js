@@ -39,57 +39,49 @@ export const Projets = () => {
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <Link className="cursor-pointer" to="/projet1">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
+            <Link className="cursor-pointer" to="/Projets/Projet1">
               <BiRightArrowCircle size="55" />
             </Link>
           </div>
           <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
-          <img
-            src={"./images/images_projets/timwebsite1.jpg"}
-            alt={"projet 1"}
-          />
+          <img src={"./images/images_projets/tim-2020.jpg"} alt={"projet 1"} />
           <p className="text-sm mt-1 text-gray-900">Rien de special</p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer" href="/">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
+            <Link className="cursor-pointer" to="/Projets/Projet2">
               <BiRightArrowCircle size="55" />
-            </a>
+            </Link>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">That is the true!</h6>
-          <img
-            src={"./images/images_projets/timwebsite1.jpg"}
-            alt={"projet 1"}
-          />
+          <h6 className="mb-2 font-semibold leading-5">Arbracine</h6>
+          <img src={"./images/images_projets/arbracine.jpg"} alt={"projet 2"} />
           <p className="text-sm mt-1 text-gray-900">
-            We meet at one of those defining moments - a moment when our nation
-            is at war, our economy is in turmoil, and the American promise has
-            been threatened once more.
+            Le site web de mon TP2 dans mon cours de Design 2.
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer" href="/">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
+            <Link className="cursor-pointer" to="/Projets/projet3">
               <BiRightArrowCircle size="55" />
-            </a>
+            </Link>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Those options</h6>
+          <h6 className="mb-2 font-semibold leading-5">
+            Site Refaire du Buffet FuLam
+          </h6>
           <img
-            src={"./images/images_projets/timwebsite1.jpg"}
-            alt={"projet 1"}
+            src={"./images/images_projets/sitebuffetFulam.jpg"}
+            alt={"projet 3"}
           />
           <p className="text-sm mt-1 text-gray-900">
-            Strategic high-level 30,000 ft view. Drill down re-inventing the
-            wheel at the end of the day but curate imagineer, or to be inspired
-            is to become creative.
+            Le site web du Fulam de mon TP5 que j'ai refait en Design 3.
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer" href="/">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
+            <Link className="cursor-pointer" to="/Projets/projet2">
               <BiRightArrowCircle size="55" />
-            </a>
+            </Link>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Swearem ipsum</h6>
           <img
@@ -103,10 +95,10 @@ export const Projets = () => {
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer" href="/">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
+            <Link className="cursor-pointer" to="/Projets/projet2">
               <BiRightArrowCircle size="55" />
-            </a>
+            </Link>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Webtwo ipsum</h6>
           <img
@@ -120,10 +112,10 @@ export const Projets = () => {
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-            <a className="cursor-pointer" href="/">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
+            <Link className="cursor-pointer" to="/Projets/projet2">
               <BiRightArrowCircle size="55" />
-            </a>
+            </Link>
           </div>
           <h6 className="mb-2 font-semibold leading-5">Lookout flogging</h6>
           <img
