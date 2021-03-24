@@ -1,6 +1,6 @@
 export const Apropos = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-5 py-px mb-4 text-4xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400 pt-2 pb-2">
@@ -41,44 +41,46 @@ export const Apropos = () => {
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/htmlIcon.png"} alt={"Icon HTML"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">HTML/CSS</h6>
+          <h6 className="mb-2 font-bold leading-5 text-white">HTML/CSS</h6>
         </div>
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/javascriptIcon.png"} alt={"Icon Javascript"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Javascript</h6>
+          <h6 className="mb-2 font-bold leading-5 text-white">Javascript</h6>
         </div>
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/reactIcon.png"} alt={"Icon React"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">React/Vuejs</h6>
+          <h6 className="mb-2 font-bold leading-5 text-white">React/Vuejs</h6>
         </div>
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/phpIcon.webp"} alt={"Icon PHP"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">PHP</h6>
+          <h6 className="mb-2 font-bold leading-5 text-white">PHP</h6>
         </div>
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/jsonIcon.png"} alt={"Icon Json"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">JSON/MySQL</h6>
+          <h6 className="mb-2 font-bold leading-5 text-white">JSON/MySQL</h6>
         </div>
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/githubIcon2.png"} alt={"Icon GitHub"} />
           </div>
-          <h6 className="mb-5 font-semibold leading-5">GitHub/Git/Trello</h6>
+          <h6 className="mb-5 font-bold leading-5 text-white">
+            GitHub/Git/Trello
+          </h6>
         </div>
       </div>
       <div className="max-w-xl mb-10 lg:max-w-7xl md:mb-12">
         <h2 className="inline-block px-3 py-1 mb-7 text-1xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-200 pt-2 pb-2">
           Qui-suis je
         </h2>
-        <p className="font-body text-xl font-bold px-5 py-2 bg-blue-100 bg-opacity-50 border-4 border-teal-accent-100 rounded-xl mb-3">
+        <p className="font-body text-xl font-bold px-5 py-2 bg-blue-100 bg-opacity-75 border-4 border-teal-accent-100 rounded-xl mb-3">
           Développeur web avec 3 ans expérience de web en Technique
           d'intégration Multimédia. Je suis un développeur full-stack, mais je
           suis plus passioné par le front-end. Je passe souvent du temps à

@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="px-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-2 py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-5 py-px mb-4 text-4xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400 pt-2 pb-2">
@@ -38,16 +38,16 @@ export const Contact = () => {
         <div className="lg:pr-10">
           <div className="flex items-center justify-center w-12 h-12 mb-5 sm:mt-1 lg:mt-20 rounded-full bg-indigo-50">
             <img
-              style={{ width: 30, height: 30, marginLeft: -5 }}
-              src={"./images/envoyer.webp"}
+              style={{ width: 50, height: 50 }}
+              src={"./images/envoyer.png"}
               alt={"Icon envoyer"}
             />
           </div>
 
-          <h5 className="mb-4 text-xl md:text-2xl font-extrabold leading-none">
+          <h5 className="mb-4 text-xl md:text-2xl font-extrabold leading-none text-gray-200">
             Email: haoyangchen1618@gmail.com
           </h5>
-          <h5 className="mb-4 text-xl md:text-2xl font-extrabold leading-none">
+          <h5 className="mb-4 text-xl md:text-2xl font-extrabold leading-none text-gray-200">
             Wechat: jijimy123
           </h5>
           <hr className="mb-5 border-gray-300" />
@@ -62,7 +62,7 @@ export const Contact = () => {
                 viewBox="0 0 24 24"
                 fill="currentColor"
                 className="h-10"
-                src={"./images/githubIcon.png"}
+                src={"./images/githubblueIcon.png"}
                 alt={"Icon GitHub"}
               />
             </a>

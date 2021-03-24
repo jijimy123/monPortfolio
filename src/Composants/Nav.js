@@ -7,7 +7,7 @@ export const Nav = () => {
   return (
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
-        <div className="font-body md:mr-40 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none hidden md:block lg:block">
+        <div className="font-body md:mr-40 text-4xl font-bold tracking-tight text-gray-100 sm:text-4xl sm:leading-none hidden md:block lg:block">
           Chen Haoyang
         </div>
         <Link to="/" title="Icon">
@@ -25,7 +25,7 @@ export const Nav = () => {
             <Link
               to="/"
               title="Accueil"
-              className="font-body text-xl font-bold tracking-wide text-indigo-900 transition-colors duration-200 hover:text-blue-100 "
+              className="hover:underline font-body text-xl font-bold tracking-wide text-indigo-700 transition-colors duration-200 hover:text-blue-100 "
             >
               Accueil
             </Link>
@@ -34,7 +34,7 @@ export const Nav = () => {
             <Link
               to="/projets"
               title="Mes Projets"
-              className="font-body text-xl font-bold tracking-wide text-indigo-900 transition-colors duration-200 hover:text-blue-100 "
+              className="hover:underline font-body text-xl font-bold tracking-wide text-indigo-700 transition-colors duration-200 hover:text-blue-100 "
             >
               Projets
             </Link>
@@ -43,7 +43,7 @@ export const Nav = () => {
             <Link
               to="/apropos"
               title="À propos"
-              className="font-body text-xl font-bold tracking-wide text-indigo-900 transition-colors duration-200 hover:text-blue-100 "
+              className="hover:underline font-body text-xl font-bold tracking-wide text-indigo-700 transition-colors duration-200 hover:text-blue-100 "
             >
               À propos
             </Link>

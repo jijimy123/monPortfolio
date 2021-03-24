@@ -126,12 +126,12 @@ export const Projets = () => {
               Site web Rechercher
             </h6>
             <img
-              src={"./images/images_projets/tim-2020.jpg"}
+              src={"./images/images_projets/methoderechercher.jpg"}
               alt={"projet 6"}
             />
             <p className="text-sm mt-1 text-gray-900">
-              Flatland! Hypatia. Galaxies Orion's sword globular star cluster?
-              Light years quasar as a patch.
+              Site très simple décrivant ce qu'est la méthodologie de recherche
+              documentaire + liste de lecture et gallerie d'images gérable.
             </p>
           </div>
         </Link>
