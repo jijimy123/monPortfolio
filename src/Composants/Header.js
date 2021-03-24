@@ -16,14 +16,14 @@ export const Header = () => {
           </svg>
           <lottie-player
             src="https://assets9.lottiefiles.com/packages/lf20_DX2n72.json"
-            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-600 lg:w-600"
+            className="object-cover w-full h-52 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-600 lg:w-600"
             background="transparent"
             speed="1"
             loop
             autoplay
           ></lottie-player>
         </div>
-        <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl z-10">
+        <div className="relative flex flex-col items-start w-full max-w-xl px-4 py-9 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl z-10">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
             <p className="inline-block px-3 py-px mb-4 text-2xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               BONJOUR!
