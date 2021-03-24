@@ -12,6 +12,7 @@ import { Projet2 } from "./Projets/Projet2";
 import { Projet3 } from "./Projets/Projet3";
 import { Projet4 } from "./Projets/Projet4";
 import { Projet5 } from "./Projets/Projet5";
+import { Projet6 } from "./Projets/Projet6";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -54,6 +55,10 @@ function Accueil() {
 
           <Route path="/Projets/Projet5">
             <Projet5 />
+          </Route>
+
+          <Route path="/Projets/Projet6">
+            <Projet6 />
           </Route>
 
           {/* ============================= END ============================ */}

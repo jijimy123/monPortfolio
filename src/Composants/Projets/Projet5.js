@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Projet5 = () => {
   return (
     <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="pb-10">
           <Link className="cursor-pointer" to="/projets">
             <BiLeftArrowCircle size="65" />
@@ -37,13 +37,17 @@ export const Projet5 = () => {
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
                   <img src={"../images/htmlIcon.png"} alt={"Icon HTML"} />
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">HTML</h6>
+                <h6 className="mb-1 font-semibold leading-5 lg:text-base text-xs">
+                  HTML
+                </h6>
               </div>
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
                   <img src={"../images/reactIcon.png"} alt={"Icon React"} />
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">React</h6>
+                <h6 className="mb-1 font-semibold leading-5 lg:text-base text-xs">
+                  React
+                </h6>
               </div>
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -52,7 +56,9 @@ export const Projet5 = () => {
                     alt={"Icon JavaScript"}
                   />
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">JavaScript</h6>
+                <h6 className="mb-1 font-semibold leading-5 lg:text-base text-xs">
+                  JavaScript
+                </h6>
               </div>
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -61,7 +67,12 @@ export const Projet5 = () => {
                     alt={"Icon Tailwind CSS"}
                   />
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">Tailwind CSS</h6>
+                <h6
+                  className="mb-2 font-semibold leading-5 lg:text-base text-xs"
+                  style={{ paddingBottom: "1.3%" }}
+                >
+                  Tailwind CSS
+                </h6>
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Projet2 = () => {
   return (
     <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="pb-10">
           <Link className="cursor-pointer" to="/projets">
             <BiLeftArrowCircle size="65" />
@@ -20,7 +20,7 @@ export const Projet2 = () => {
                 rel="noopener noreferrer"
                 href="https://arbracine.netlify.app"
               >
-                <span className="text-xl font-bold inline-block text-deep-purple-accent-400">
+                <span className="text-2xl font-bold inline-block text-deep-purple-accent-400">
                   https://arbracine.netlify.app
                 </span>
               </a>
@@ -37,7 +37,9 @@ export const Projet2 = () => {
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
                   <img src={"../images/htmlIcon.png"} alt={"Icon HTML"} />
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">HTML</h6>
+                <h6 className="mb-1 font-semibold leading-5 lg:text-base text-xs">
+                  HTML
+                </h6>
               </div>
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -47,7 +49,10 @@ export const Projet2 = () => {
                     alt={"Icon CSS"}
                   />
                 </div>
-                <h6 className="mb-2 font-semibold leading-5"> CSS</h6>
+                <h6 className="mb-1 font-semibold leading-5 lg:text-base text-xs">
+                  {" "}
+                  CSS
+                </h6>
               </div>
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
@@ -56,7 +61,12 @@ export const Projet2 = () => {
                     alt={"Icon JavaScript"}
                   />
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">JavaScript</h6>
+                <h6
+                  className="mb-1 font-semibold leading-5 lg:text-base text-xs"
+                  style={{ paddingBottom: "1.2%" }}
+                >
+                  JavaScript
+                </h6>
               </div>
             </div>
           </div>

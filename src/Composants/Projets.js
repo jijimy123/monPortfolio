@@ -37,93 +37,104 @@ export const Projets = () => {
         </h2>
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
-        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/Projet1">
+        <Link className="cursor-pointer" to="/Projets/Projet1">
+          <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
               <BiRightArrowCircle size="55" />
-            </Link>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
+            <img
+              src={"./images/images_projets/tim-2020.jpg"}
+              alt={"projet 1"}
+            />
+            <p className="text-sm mt-1 text-gray-900">
+              Le site officel du département Technique d'Intégration Multimédia
+            </p>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
-          <img src={"./images/images_projets/tim-2020.jpg"} alt={"projet 1"} />
-          <p className="text-sm mt-1 text-gray-900">
-            Le site officel du département Technique d'Intégration Multimédia
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/Projet2">
+        </Link>
+        <Link className="cursor-pointer" to="/Projets/Projet2">
+          <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
               <BiRightArrowCircle size="55" />
-            </Link>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Arbracine</h6>
+            <img
+              src={"./images/images_projets/arbracine.jpg"}
+              alt={"projet 2"}
+            />
+            <p className="text-sm mt-1 text-gray-900">
+              Le site web de mon TP2 dans mon cours de Design 2.
+            </p>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Arbracine</h6>
-          <img src={"./images/images_projets/arbracine.jpg"} alt={"projet 2"} />
-          <p className="text-sm mt-1 text-gray-900">
-            Le site web de mon TP2 dans mon cours de Design 2.
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/Projet3">
+        </Link>
+        <Link className="cursor-pointer" to="/Projets/Projet3">
+          <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
               <BiRightArrowCircle size="55" />
-            </Link>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">
+              Site Refaire du Buffet FuLam
+            </h6>
+            <img
+              src={"./images/images_projets/sitebuffetFulam.jpg"}
+              alt={"projet 3"}
+            />
+            <p className="text-sm mt-1 text-gray-900">
+              Le site web du Fulam de mon TP5 que j'ai refait en Design 3.
+            </p>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">
-            Site Refaire du Buffet FuLam
-          </h6>
-          <img
-            src={"./images/images_projets/sitebuffetFulam.jpg"}
-            alt={"projet 3"}
-          />
-          <p className="text-sm mt-1 text-gray-900">
-            Le site web du Fulam de mon TP5 que j'ai refait en Design 3.
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/Projet4">
+        </Link>
+        <Link className="cursor-pointer" to="/Projets/Projet4">
+          <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
               <BiRightArrowCircle size="55" />
-            </Link>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">
+              Quiz Culture Chinois
+            </h6>
+            <img
+              src={"./images/images_projets/quizculturechinois.jpg"}
+              alt={"projet 4"}
+            />
+            <p className="text-sm mt-1 text-gray-900">
+              Un site qui contient des quiz chinois que j'ai fait avec mon
+              college Alexi!
+            </p>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Quiz Culture Chinois</h6>
-          <img
-            src={"./images/images_projets/quizculturechinois.jpg"}
-            alt={"projet 4"}
-          />
-          <p className="text-sm mt-1 text-gray-900">
-            Un site qui contient des quiz chinois que j'ai fait avec mon college
-            Alexi!
-          </p>
-        </div>
-        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/projet5">
+        </Link>
+        <Link className="cursor-pointer" to="/Projets/Projet5">
+          <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
               <BiRightArrowCircle size="55" />
-            </Link>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Mon Portfolio</h6>
+            <img
+              src={"./images/images_projets/monPortfolio.jpg"}
+              alt={"projet 5"}
+            />
+            <p className="text-sm mt-1 text-gray-900">
+              C'est mon portfolio que j'ai fait dans ma dernière session.
+            </p>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Mon Portfolio</h6>
-          <img
-            src={"./images/images_projets/monPortfolio.jpg"}
-            alt={"projet 5"}
-          />
-          <p className="text-sm mt-1 text-gray-900">C'est mon portfolio</p>
-        </div>
-        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/projet2">
+        </Link>
+        <Link className="cursor-pointer" to="/Projets/Projet6">
+          <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
               <BiRightArrowCircle size="55" />
-            </Link>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">
+              Site web Rechercher
+            </h6>
+            <img
+              src={"./images/images_projets/tim-2020.jpg"}
+              alt={"projet 6"}
+            />
+            <p className="text-sm mt-1 text-gray-900">
+              Flatland! Hypatia. Galaxies Orion's sword globular star cluster?
+              Light years quasar as a patch.
+            </p>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Lookout flogging</h6>
-          <img
-            src={"./images/images_projets/timwebsite1.jpg"}
-            alt={"projet 1"}
-          />
-          <p className="text-sm mt-1 text-gray-900">
-            Flatland! Hypatia. Galaxies Orion's sword globular star cluster?
-            Light years quasar as a patch of light gathered by gravity Vangelis
-            radio telescope.
-          </p>
-        </div>
+        </Link>
       </div>
     </div>
   );
