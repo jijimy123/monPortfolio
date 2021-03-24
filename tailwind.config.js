@@ -300,6 +300,9 @@ module.exports = {
           900: "#3e2723",
         },
       },
+      fontFamily: {
+        body: ["Manrope"],
+      },
       spacing: {
         7: "1.75rem",
         9: "2.25rem",

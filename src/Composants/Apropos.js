@@ -74,14 +74,17 @@ export const Apropos = () => {
           <h6 className="mb-5 font-semibold leading-5">GitHub/Git/Trello</h6>
         </div>
       </div>
-      <div className="max-w-xl mb-10 lg:max-w-2xl md:mb-12">
+      <div className="max-w-xl mb-10 lg:max-w-7xl md:mb-12">
         <h2 className="inline-block px-3 py-1 mb-7 text-1xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-200 pt-2 pb-2">
           Qui-suis je
         </h2>
-        <p className="pl-10">
-          Je suis un étudiant en Techniques d'Intégration Multimédia avec un
-          intérêt en programmation front-end, j'aime apprendre des nouvelles
-          technologies.
+        <p className="font-body text-xl font-bold px-5 py-2 bg-blue-100 bg-opacity-50 border-4 border-teal-accent-100 rounded-xl mb-3">
+          Développeur web avec 3 ans expérience de web en Technique
+          d'intégration Multimédia. Je suis un développeur full-stack, mais je
+          suis plus passioné par le front-end. Je passe souvent du temps à
+          regarder des nouvelles technologies et essayer de comprendre et de
+          l'apprendre. J'aime travailler dans une équipe avec une belle
+          ambiance.
         </p>
       </div>
     </div>

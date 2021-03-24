@@ -34,11 +34,10 @@ export const Projets = () => {
               />
             </svg>
           </span>{" "}
-          ca marche just avec le premier
         </h2>
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
             <Link className="cursor-pointer" to="/Projets/Projet1">
               <BiRightArrowCircle size="55" />
@@ -50,7 +49,7 @@ export const Projets = () => {
             Le site officel du département Technique d'Intégration Multimédia
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
             <Link className="cursor-pointer" to="/Projets/Projet2">
               <BiRightArrowCircle size="55" />
@@ -62,7 +61,7 @@ export const Projets = () => {
             Le site web de mon TP2 dans mon cours de Design 2.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
             <Link className="cursor-pointer" to="/Projets/Projet3">
               <BiRightArrowCircle size="55" />
@@ -79,7 +78,7 @@ export const Projets = () => {
             Le site web du Fulam de mon TP5 que j'ai refait en Design 3.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
             <Link className="cursor-pointer" to="/Projets/Projet4">
               <BiRightArrowCircle size="55" />
@@ -95,7 +94,7 @@ export const Projets = () => {
             Alexi!
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
             <Link className="cursor-pointer" to="/Projets/projet5">
               <BiRightArrowCircle size="55" />
@@ -108,7 +107,7 @@ export const Projets = () => {
           />
           <p className="text-sm mt-1 text-gray-900">C'est mon portfolio</p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-gray-300 border-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
             <Link className="cursor-pointer" to="/Projets/projet2">
               <BiRightArrowCircle size="55" />
