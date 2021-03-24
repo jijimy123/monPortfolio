@@ -46,7 +46,9 @@ export const Projets = () => {
           </div>
           <h6 className="mb-2 font-semibold leading-5">TIM - 2020</h6>
           <img src={"./images/images_projets/tim-2020.jpg"} alt={"projet 1"} />
-          <p className="text-sm mt-1 text-gray-900">Rien de special</p>
+          <p className="text-sm mt-1 text-gray-900">
+            Le site officel du département Technique d'Intégration Multimédia
+          </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
@@ -62,7 +64,7 @@ export const Projets = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/projet3">
+            <Link className="cursor-pointer" to="/Projets/Projet3">
               <BiRightArrowCircle size="55" />
             </Link>
           </div>
@@ -79,37 +81,32 @@ export const Projets = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/projet2">
+            <Link className="cursor-pointer" to="/Projets/Projet4">
               <BiRightArrowCircle size="55" />
             </Link>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Swearem ipsum</h6>
+          <h6 className="mb-2 font-semibold leading-5">Quiz Culture Chinois</h6>
           <img
-            src={"./images/images_projets/timwebsite1.jpg"}
-            alt={"projet 1"}
+            src={"./images/images_projets/quizculturechinois.jpg"}
+            alt={"projet 4"}
           />
           <p className="text-sm mt-1 text-gray-900">
-            Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et.
-            Vestibulum placerat purus ut nibh aliquam fringilla. Aenean et
-            tortor diam, id tempor elit.
+            Un site qui contient des quiz chinois que j'ai fait avec mon college
+            Alexi!
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">
-            <Link className="cursor-pointer" to="/Projets/projet2">
+            <Link className="cursor-pointer" to="/Projets/projet5">
               <BiRightArrowCircle size="55" />
             </Link>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Webtwo ipsum</h6>
+          <h6 className="mb-2 font-semibold leading-5">Mon Portfolio</h6>
           <img
-            src={"./images/images_projets/timwebsite1.jpg"}
-            alt={"projet 1"}
+            src={"./images/images_projets/monPortfolio.jpg"}
+            alt={"projet 5"}
           />
-          <p className="text-sm mt-1 text-gray-900">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-            perspiciatis unde omnis.
-          </p>
+          <p className="text-sm mt-1 text-gray-900">C'est mon portfolio</p>
         </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full">

@@ -53,6 +53,8 @@ export const Contact = () => {
           <hr className="mb-5 border-gray-300" />
           <div className="flex items-center space-x-4">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/jijimy123"
               className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
@@ -65,6 +67,8 @@ export const Contact = () => {
               />
             </a>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/chen-haoyang-638b631b6/"
               className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >

@@ -1,13 +1,19 @@
+// Importation des composants
 import { Contact } from "./Contact";
 import { Apropos } from "./Apropos";
 import { Header } from "./Header";
 import { Projets } from "./Projets";
+import { Footer } from "./Footer";
+import { Nav } from "./Nav";
+
+// Importation des projets
 import { Projet1 } from "./Projets/Projet1";
 import { Projet2 } from "./Projets/Projet2";
 import { Projet3 } from "./Projets/Projet3";
-import { Nav } from "./Nav";
+import { Projet4 } from "./Projets/Projet4";
+import { Projet5 } from "./Projets/Projet5";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Footer } from "./Footer";
 
 function Accueil() {
   return (
@@ -40,6 +46,14 @@ function Accueil() {
 
           <Route path="/Projets/Projet3">
             <Projet3 />
+          </Route>
+
+          <Route path="/Projets/Projet4">
+            <Projet4 />
+          </Route>
+
+          <Route path="/Projets/Projet5">
+            <Projet5 />
           </Route>
 
           {/* ============================= END ============================ */}

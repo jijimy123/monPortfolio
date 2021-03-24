@@ -18,10 +18,10 @@ export const Projet3 = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/jijimy123/Exemple-WebSite-Fulam"
+                href="https://site-buffet-fulam.netlify.app"
               >
                 <span className="text-xl font-bold inline-block text-deep-purple-accent-400">
-                  https://github.com/jijimy123/Exemple-WebSite-Fulam
+                  https://site-buffet-fulam.netlify.app
                 </span>
               </a>
               <p className="text-base text-gray-700 md:text-lg">
@@ -63,7 +63,7 @@ export const Projet3 = () => {
           <div>
             <img
               src={"../images/images_projets/sitebuffetFulam.jpg"}
-              alt={"projet 2"}
+              alt={"projet 3"}
             />
           </div>
         </div>
