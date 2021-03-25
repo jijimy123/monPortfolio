@@ -25,7 +25,7 @@ export const Nav = () => {
             <Link
               to="/"
               title="Accueil"
-              className="hover:underline font-body text-xl font-bold tracking-wide text-indigo-700 transition-colors duration-200 hover:text-blue-100 "
+              className="hover:underline font-body text-xl font-bold tracking-wide text-blue-300 transition-colors duration-200 hover:text-blue-100 "
             >
               Accueil
             </Link>
@@ -34,7 +34,7 @@ export const Nav = () => {
             <Link
               to="/projets"
               title="Mes Projets"
-              className="hover:underline font-body text-xl font-bold tracking-wide text-indigo-700 transition-colors duration-200 hover:text-blue-100 "
+              className="hover:underline font-body text-xl font-bold tracking-wide text-blue-300 transition-colors duration-200 hover:text-blue-100 "
             >
               Projets
             </Link>
@@ -43,7 +43,7 @@ export const Nav = () => {
             <Link
               to="/apropos"
               title="À propos"
-              className="hover:underline font-body text-xl font-bold tracking-wide text-indigo-700 transition-colors duration-200 hover:text-blue-100 "
+              className="hover:underline font-body text-xl font-bold tracking-wide text-blue-300 transition-colors duration-200 hover:text-blue-100 "
             >
               À propos
             </Link>
@@ -52,7 +52,7 @@ export const Nav = () => {
             <Link
               to="/contact"
               title="Contact"
-              className="inline-flex items-center justify-center h-12 px-6 font-body font-bold tracking-wide text-indigo-100 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center h-12 px-6 font-body font-bold tracking-wide text-blue-100 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-blue-300 focus:shadow-outline focus:outline-none"
             >
               Contact 🥰
             </Link>

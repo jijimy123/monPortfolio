@@ -28,11 +28,11 @@ export const Header = () => {
             <p className="inline-block px-3 py-px mb-4 text-3xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               BONJOUR!
             </p>
-            <div className="bg-blue-100 bg-opacity-75 border-4 border-blue-900 rounded-xl mb-3 w-11/12">
-              <h2 className="mb-5 pl-1 pt-2 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl sm:leading-none">
+            <div className="border-4 border-blue-900 rounded-xl mb-3 w-11/12">
+              <h2 className="mb-5 px-1 pt-2 font-sans text-2xl font-bold tracking-tight text-gray-300 sm:text-3xl sm:leading-none">
                 Bienvenu dans mon portfolio!
               </h2>
-              <p className="pr-4 mb-4 pl-1 text-base font-bold text-blue-800 md:text-lg">
+              <p className="mb-4 pl-2 text-base font-bold text-blue-800 md:text-xl">
                 Je suis un étudiant en Techniques d'Intégration Multimédia avec
                 un intérêt en programmation front-end, j'aime apprendre des
                 nouvelles technologies.
