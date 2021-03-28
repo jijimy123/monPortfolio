@@ -5,7 +5,7 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
         <div className="font-body md:mr-40 text-4xl font-bold tracking-tight text-gray-100 sm:text-4xl sm:leading-none hidden md:block lg:block">
           Chen Haoyang
@@ -52,7 +52,7 @@ export const Nav = () => {
             <Link
               to="/contact"
               title="Contact"
-              className="inline-flex items-center justify-center h-12 px-6 font-body font-bold tracking-wide text-blue-100 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-blue-300 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center h-12 px-6 font-body font-bold tracking-wide text-blue-100 transition duration-200 rounded shadow-md bg-indigo-900 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
             >
               Contact 🥰
             </Link>
@@ -138,7 +138,7 @@ export const Nav = () => {
                       <Link
                         to="/contact"
                         title="Contact"
-                        className="font-medium tracking-wide text-indigo-900 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide bg-indigo-900 hover:bg-blue-700 transition-colors duration-200"
                       >
                         Contact
                       </Link>

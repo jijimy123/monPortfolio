@@ -69,7 +69,7 @@ export const Apropos = () => {
         </div>
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-            <img src={"./images/githubIcon2.png"} alt={"Icon GitHub"} />
+            <img src={"./images/githubblueIcon.png"} alt={"Icon GitHub"} />
           </div>
           <h6 className="mb-5 font-bold leading-5 text-white">
             GitHub/Git/Trello
@@ -80,7 +80,7 @@ export const Apropos = () => {
         <h2 className="inline-block px-3 py-1 mb-7 text-1xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-200 pt-2 pb-2">
           Qui-suis je
         </h2>
-        <p className="font-body text-xl font-bold px-5 py-2 bg-blue-100 bg-opacity-75 border-4 border-teal-accent-100 rounded-xl mb-3">
+        <p className="font-body text-xl font-bold px-5 py-2 text-gray-200 bg-gray-900 rounded-xl mb-3">
           Développeur web avec 3 ans expérience de web en Technique
           d'intégration Multimédia. Je suis un développeur full-stack, mais je
           suis plus passioné par le front-end. Je passe souvent du temps à
