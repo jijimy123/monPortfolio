@@ -76,8 +76,8 @@ export const Apropos = () => {
           </h6>
         </div>
       </div>
-      <div className="max-w-xl mb-10 lg:max-w-7xl md:mb-12">
-        <h2 className="inline-block px-3 py-1 mb-7 text-1xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-200 pt-2 pb-2">
+      <div className="max-w-xl mb-10 lg:max-w-7xl md:mb-14">
+        <h2 className="inline-block px-3 py-5 mb-7 text-1xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-200 pt-2 pb-2">
           Qui-suis je
         </h2>
         <p className="font-body text-xl font-bold px-5 py-2 text-gray-200 bg-gray-900 rounded-xl mb-3">

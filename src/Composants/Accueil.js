@@ -18,7 +18,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function Accueil() {
   return (
-    <div style={{ backgroundColor: "#0b0b0b", paddingBottom: "0.5%" }}>
+    <div style={{ backgroundColor: "#0b0b0b", paddingBottom: "0.1%" }}>
       <Router>
         <Nav />
         <Switch>

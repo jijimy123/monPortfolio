@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
-      <div className="relative flex flex-col-reverse py-4 lg:flex-col font-body">
+      <div className="relative flex flex-col-reverse py-5 lg:flex-col font-body">
         <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:ml-3 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
           <lottie-player
             src="https://assets9.lottiefiles.com/packages/lf20_DX2n72.json"
