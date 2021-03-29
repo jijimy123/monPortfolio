@@ -76,10 +76,16 @@ export const Projet2 = () => {
               </div>
             </div>
           </div>
-          <div className="border-gray-100 border-2 h-80">
+          <div className="space-y-5">
             <img
+              className="border-gray-100 border-2 h-80"
               src={"../images/images_projets/arbracine.jpg"}
-              alt={"projet 2"}
+              alt={"projet arbracine-1"}
+            />
+            <img
+              className="border-gray-100 border-2 h-80"
+              src={"../images/images_projets/arbracine-2.png"}
+              alt={"projet arbracine-2"}
             />
           </div>
         </div>

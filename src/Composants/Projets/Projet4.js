@@ -70,10 +70,16 @@ export const Projet4 = () => {
               </div>
             </div>
           </div>
-          <div className="border-gray-100 border-2 h-80">
+          <div className="space-y-5">
             <img
+              className="border-gray-100 border-2 h-80"
               src={"../images/images_projets/quizculturechinois.jpg"}
-              alt={"projet 4"}
+              alt={"projet quiz culture chinois-1"}
+            />
+            <img
+              className="border-gray-100 border-2 h-80"
+              src={"../images/images_projets/quizculturechinois-2.png"}
+              alt={"projet quiz culture chinois-2"}
             />
           </div>
         </div>

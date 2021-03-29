@@ -70,10 +70,16 @@ export const Projet3 = () => {
               </div>
             </div>
           </div>
-          <div className="border-gray-100 border-2 h-80">
+          <div className="space-y-5">
             <img
+              className="border-gray-100 border-2 h-80"
               src={"../images/images_projets/sitebuffetFulam.jpg"}
-              alt={"projet 3"}
+              alt={"projet site buffet Fulam-1"}
+            />
+            <img
+              className="border-gray-100 border-2 h-80"
+              src={"../images/images_projets/sitebuffetFulam-2.png"}
+              alt={"projet site buffet Fulam-2"}
             />
           </div>
         </div>
