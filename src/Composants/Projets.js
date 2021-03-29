@@ -48,7 +48,7 @@ export const Projets = () => {
               alt={"projet 1"}
             />
             <p className="text-sm mt-1 text-gray-900">
-              Le site officel du département Technique d'Intégration Multimédia
+              Le site officiel du département Technique d'Intégration Multimédia
             </p>
           </div>
         </Link>
