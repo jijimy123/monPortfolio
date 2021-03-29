@@ -25,8 +25,18 @@ export const Projet1 = () => {
                 </span>
               </a>
               <p className="text-base text-gray-200 md:text-lg">
-                Ceci est un projet que j'ai fait avec mon équipe Shreact avec
-                React... blablabla
+                &nbsp;&nbsp;Ceci est un projet que j'ai fait avec mon équipe
+                Shreact avec React. On a utilisé plusieurs technologies pour ce
+                projet, comme Teams pour la communication; Contenful pour la
+                base de donnée; Figma pour les maquettes du site; Git pour la
+                gestion de fichiers et code source,etc.
+              </p>
+              <br></br>
+              <p className="text-base text-gray-200 md:text-lg">
+                &nbsp;&nbsp;Je trouve que j'ai une belle optunité de travailler
+                avec mon équipe avec React.Cela me donne une très belle
+                expérience c'est quoi React, qu'est ce que je peux faire avec et
+                c'est quoi la beauté de React.
               </p>
             </div>
             <span className="text-3xl font-bold inline-block text-deep-purple-accent-400 pb-3">
@@ -63,7 +73,7 @@ export const Projet1 = () => {
               <div>
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
                   <img
-                    className=" w-11 h-11"
+                    className=" w-10 h-11 mr-1"
                     src={"../images/contentfulIcon.png"}
                     alt={"Icon Contentful"}
                   />
@@ -77,10 +87,16 @@ export const Projet1 = () => {
               </div>
             </div>
           </div>
-          <div className="border-gray-100 border-2 h-80">
+          <div className="space-y-5">
             <img
+              className="border-gray-100 border-2 h-80"
               src={"../images/images_projets/tim-2020.jpg"}
-              alt={"projet 1"}
+              alt={"projet tim-2020-1"}
+            />
+            <img
+              className="border-gray-100 border-2 h-80"
+              src={"../images/images_projets/tim-2020-2.png"}
+              alt={"projet tim-2020-2"}
             />
           </div>
         </div>

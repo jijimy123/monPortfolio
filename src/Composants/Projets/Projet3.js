@@ -25,8 +25,8 @@ export const Projet3 = () => {
                 </span>
               </a>
               <p className="text-base text-gray-200 md:text-lg">
-                Ceci est un projet que j'ai refait pour le site web du FuLam
-                pour que le site soit être plus beau...
+                &nbsp;&nbsp;Ceci est un projet que j'ai refait pour le site web
+                du FuLam pour que le site soit être plus beau.
               </p>
             </div>
             <span className="text-3xl font-bold inline-block text-deep-purple-accent-400 pb-3">

@@ -25,8 +25,8 @@ export const Projet5 = () => {
                 </span>
               </a>
               <p className="text-base text-gray-200 md:text-lg">
-                Ceci est un portfolio qui crée par moi-même pour me bien
-                présenter et me vendre
+                &nbsp;&nbsp;Ceci est un portfolio qui crée par moi-même pour me
+                bien présenter et me vendre.
               </p>
             </div>
             <span className="text-3xl font-bold inline-block text-deep-purple-accent-400 pb-3">

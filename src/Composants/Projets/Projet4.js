@@ -25,8 +25,8 @@ export const Projet4 = () => {
                 </span>
               </a>
               <p className="text-base text-gray-200 md:text-lg">
-                Ceci est un site qui contient des quiz chinois que j'ai fait
-                avec mon college Alexi!
+                &nbsp;&nbsp;Ceci est un site qui contient des quiz chinois que
+                j'ai fait avec mon college Alexis!
               </p>
             </div>
             <span className="text-3xl font-bold inline-block text-deep-purple-accent-400 pb-3">

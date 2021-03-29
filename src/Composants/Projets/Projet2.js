@@ -25,8 +25,14 @@ export const Projet2 = () => {
                 </span>
               </a>
               <p className="text-base text-gray-200 md:text-lg">
-                Ceci est un projet que j'ai fait avec mon equipe Arbracine avec
-                HTML... pour environnement blabla
+                &nbsp;&nbsp;Ceci est un projet que j'ai fait avec mon equipe
+                Arbracine avec HTML, CSS et JavaScript. On est une équipe de 6
+                personnes, il y a plus de difficultés compare aux autres équipes
+                de 3-4 personnes. Il y a plus de communications à faire, c'est
+                plus dur de réunir tout le monde dans un moment pour discuter le
+                projet. C'est plus difficle de convraincre tout le monde a la
+                même idée ou la même but...Mais on a réussi de les tout faire et
+                avoir une beau site comme cela: Arbracine.
               </p>
             </div>
             <span className="text-3xl font-bold inline-block text-deep-purple-accent-400 pb-3">

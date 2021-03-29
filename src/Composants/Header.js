@@ -17,7 +17,7 @@ export const Header = () => {
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 py-9 ml-auto mr-96 md:px-0 lg:px-8 lg:max-w-screen-xl z-10">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-            <p className="inline-block px-6 py-2 mb-4 text-3xl font-semibold tracking-wider text-gray-200 uppercase rounded-full bg-teal-accent-400">
+            <p className="inline-block px-6 py-2 mb-4 text-3xl font-bold tracking-wider text-black uppercase rounded-full bg-teal-accent-400">
               BONJOUR!
             </p>
             <div className="mb-3 w-11/12 mr-20">

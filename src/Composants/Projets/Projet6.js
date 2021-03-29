@@ -25,9 +25,9 @@ export const Projet6 = () => {
                 </span>
               </a>
               <p className="text-base text-gray-200 md:text-lg">
-                Site très simple décrivant ce qu'est la méthodologie de
-                recherche documentaire + liste de lecture et gallerie d'images
-                gérable.
+                &nbsp;&nbsp;Site très simple décrivant ce qu'est la méthodologie
+                de recherche documentaire + liste de lecture et gallerie
+                d'images gérable.
               </p>
             </div>
             <span className="text-3xl font-bold inline-block text-deep-purple-accent-400 pb-3">

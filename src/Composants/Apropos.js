@@ -36,37 +36,93 @@ export const Apropos = () => {
         Mes Compétences
       </h2>
 
-      <div className="grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-6">
+      <div className="grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-4">
+        {/* ============================================================================================================== */}
+
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/htmlIcon.png"} alt={"Icon HTML"} />
           </div>
-          <h6 className="mb-2 font-bold leading-5 text-white">HTML/CSS</h6>
+          <h6 className="mb-2 font-bold leading-5 text-white">HTML</h6>
         </div>
+
+        {/* ============================================================================================================== */}
+
+        <div className="text-center">
+          <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+            <img
+              src={"./images/cssIcon.png"}
+              alt={"Icon CSS"}
+              className="w-11 h-16 lg:w-16 lg:h-20"
+            />
+          </div>
+          <h6 className="mb-2 font-bold leading-5 text-white">CSS</h6>
+        </div>
+
+        {/* ============================================================================================================== */}
+
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/javascriptIcon.png"} alt={"Icon Javascript"} />
           </div>
           <h6 className="mb-2 font-bold leading-5 text-white">Javascript</h6>
         </div>
+
+        {/* ============================================================================================================== */}
+
+        <div className="text-center">
+          <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+            <img
+              src={"./images/vuejsIcon.png"}
+              alt={"Icon Vuejs"}
+              className="w-11 h-14 mt-2 lg:w-16 lg:h-16"
+            />
+          </div>
+          <h6 className="mb-2 font-bold leading-5 text-white">Vuejs</h6>
+        </div>
+
+        {/* ============================================================================================================== */}
+
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/reactIcon.png"} alt={"Icon React"} />
           </div>
-          <h6 className="mb-2 font-bold leading-5 text-white">React/Vuejs</h6>
+          <h6 className="mb-2 font-bold leading-5 text-white">React</h6>
         </div>
+
+        {/* ============================================================================================================== */}
+
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/phpIcon.webp"} alt={"Icon PHP"} />
           </div>
           <h6 className="mb-2 font-bold leading-5 text-white">PHP</h6>
         </div>
+
+        {/* ============================================================================================================== */}
+
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/jsonIcon.png"} alt={"Icon Json"} />
           </div>
           <h6 className="mb-2 font-bold leading-5 text-white">JSON/MySQL</h6>
         </div>
+
+        {/* ============================================================================================================== */}
+
+        <div className="text-center">
+          <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+            <img
+              src={"./images/contentfulIcon.png"}
+              alt={"Icon Contentful"}
+              className="w-14 h-14 mr-1 lg:w-20 lg:h-24"
+            />
+          </div>
+          <h6 className="mb-2 font-bold leading-5 text-white">Contentful</h6>
+        </div>
+
+        {/* ============================================================================================================== */}
+
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={"./images/githubblueIcon.png"} alt={"Icon GitHub"} />
@@ -75,7 +131,12 @@ export const Apropos = () => {
             GitHub/Git/Trello
           </h6>
         </div>
+
+        {/* ============================================================================================================== */}
       </div>
+
+      {/* ============================================================================================================== */}
+
       <div className="max-w-xl mb-10 lg:max-w-7xl md:mb-14">
         <h2 className="inline-block px-3 py-5 mb-7 text-1xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-200 pt-2 pb-2">
           Qui-suis je
