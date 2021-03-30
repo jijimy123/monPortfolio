@@ -48,7 +48,8 @@ export const Projets = () => {
               alt={"projet 1"}
             />
             <p className="text-sm mt-1 text-gray-900">
-              Le site officiel du département Technique d'Intégration Multimédia
+              Refonte du site du département de Techniques d'Intégration
+              Multimédia.
             </p>
           </div>
         </Link>
@@ -73,7 +74,7 @@ export const Projets = () => {
               <BiRightArrowCircle size="55" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
-              Site Refaire du Buffet FuLam
+              Site refait du Buffet FuLam
             </h6>
             <img
               src={"./images/images_projets/sitebuffetFulam.jpg"}
@@ -90,15 +91,15 @@ export const Projets = () => {
               <BiRightArrowCircle size="55" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
-              Quiz Culture Chinois
+              Quiz Culture Chinoise
             </h6>
             <img
               src={"./images/images_projets/quizculturechinois.jpg"}
               alt={"projet 4"}
             />
             <p className="text-sm mt-1 text-gray-900">
-              Un site qui contient des quiz chinois que j'ai fait avec mon
-              college Alexi!
+              Un site de quiz sur la culture chinoise que j'ai fais avec mon
+              collège Alexi!
             </p>
           </div>
         </Link>
@@ -123,7 +124,7 @@ export const Projets = () => {
               <BiRightArrowCircle size="55" />
             </div>
             <h6 className="mb-2 font-semibold leading-5">
-              Site web Rechercher
+              Site web sur la recherche
             </h6>
             <img
               src={"./images/images_projets/methoderechercher.jpg"}

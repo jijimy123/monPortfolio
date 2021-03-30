@@ -139,15 +139,15 @@ export const Apropos = () => {
 
       <div className="max-w-xl mb-10 lg:max-w-7xl md:mb-14">
         <h2 className="inline-block px-3 py-5 mb-7 text-1xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-200 pt-2 pb-2">
-          Qui-suis je
+          Qui suis-je
         </h2>
         <p className="font-body text-xl font-bold px-5 py-2 text-gray-200 bg-gray-900 rounded-xl mb-3">
-          Développeur web avec 3 ans expérience de web en Technique
+          Développeur web avec 3 ans expériences acquises en Techniques
           d'intégration Multimédia. Je suis un développeur full-stack, mais je
-          suis plus passioné par le front-end. Je passe souvent du temps à
-          regarder des nouvelles technologies et essayer de comprendre et de
-          l'apprendre. J'aime travailler dans une équipe avec une belle
-          ambiance.
+          suis plus passioné par le front-end. Je passe beaucoup de temps à
+          m'informer des nouvelles technologies ainsi qu'à les essayer de
+          comprendre et de l'apprendre. J'aime travailler avec une équipe qui a
+          une belle ambiance.
         </p>
       </div>
     </div>

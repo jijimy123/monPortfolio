@@ -25,18 +25,18 @@ export const Projet1 = () => {
                 </span>
               </a>
               <p className="text-base text-gray-200 md:text-lg">
-                &nbsp;&nbsp;Ceci est un projet que j'ai fait avec mon équipe
+                &nbsp;&nbsp;Ceci est un projet que j'ai réalisé avec mon équipe
                 Shreact avec React. On a utilisé plusieurs technologies pour ce
                 projet, comme Teams pour la communication; Contenful pour la
-                base de donnée; Figma pour les maquettes du site; Git pour la
+                base de données; Figma pour les maquettes du site; Git pour la
                 gestion de fichiers et code source,etc.
               </p>
               <br></br>
               <p className="text-base text-gray-200 md:text-lg">
-                &nbsp;&nbsp;Je trouve que j'ai une belle optunité de travailler
-                avec mon équipe avec React.Cela me donne une très belle
-                expérience c'est quoi React, qu'est ce que je peux faire avec et
-                c'est quoi la beauté de React.
+                &nbsp;&nbsp;Je trouve que c'était une belle opportunité de
+                travailler avec mon équipe en apprennant React. J'ai beaucoup
+                appris sur ces technologies (ce qui est possible de faire et
+                quand est-ce qu'il est pratique de les utiliser).
               </p>
             </div>
             <span className="text-3xl font-bold inline-block text-deep-purple-accent-400 pb-3">
